@@ -1,0 +1,124 @@
+img{
+    height: 220px;
+    }
+    .carousel .thumb{
+    display: none !important;
+    }
+    .slides {
+    position: relative;
+    }
+    .slides .slick-prev,
+    .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index:1;
+    width: 30%;
+    }
+    .slides .slick-prev {
+    left: 5%;
+    }
+    .slides .slick-next {
+    right: 5%;
+    }
+    .right {
+    background-color:white;
+    width:20%;
+    margin-right:20%;
+    float:right;
+    height: 518px;
+    }
+    .lower{
+    background-color: red;
+    margin-top:2%;
+    }
+    .author-right{
+    direction: rtl;
+    font-family: sans-serif;
+    float:right;
+    font-size: 10px;
+    display: inline-flex;
+    margin-top: 20%;
+    margin-right:0%;
+    width:65px;
+    padding-bottom: 4px;
+    color:black;
+    height: 25px;
+    font-size: 10px;
+    }
+    .category-name-right{
+    text-align: right;
+    float: right;
+    width: 120px;
+    padding-top: -3px;
+    padding-bottom: 33px;
+    color: white;
+    height: 3px;
+    font-size: 11px;
+    direction: rtl;
+    font-family: sans-seri;
+    }
+    .title-right{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5px;
+    float:right;
+    width:420px;
+    direction: rtl;
+    color:black;
+    height: 25px;
+    font-size: 12px;
+    direction: rtl;
+    font-family: sans-seri;
+    }
+    .sub-title-right{
+    width:420px;
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 4%;
+    float:right;
+    direction: rtl;
+    color:black;
+    height: 25px;
+    font-size: 14px;
+    direction: rtl;
+    font-family: sans-seri;
+    }
+    @media screen and (max-width: 600px) {
+    img{
+    height: 120px;
+    }
+    .lower{
+    background-color: white;
+    margin-top:20%;
+    }
+    .right{
+    height: 410px;
+    width: 70%;
+    margin-right: 16%;
+    }
+    .author-right{
+    margin-top: 20%;
+    margin-right:0%;
+    font-size:6px;
+    width: 55px;
+    height: 25px;
+    padding-bottom:7px;
+    }
+    .category-name-right{
+    margin-top:10px;
+    }
+    .title-right{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    }
+    .sub-title-right{
+    width:100%;
+    margin-right: 0%;
+    margin-top: 20%;
+    font-size:8px;
+    }
+    img{
+    width:185px;
+    }
+    }

@@ -1,0 +1,11 @@
+.gallery{
+    direction: rtl;
+    }
+    #file-upload{
+    margin-right: 4%;
+    }
+    @media screen and (max-width: 600px) {
+    #file-upload{
+    margin-right:-10%;
+    }
+    }

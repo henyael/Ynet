@@ -1,0 +1,109 @@
+.left{
+    padding-top: 30px;
+    float: left;
+    width:20%;
+    margin-left: 20%;
+    height: 480px;
+    background-color: #dddddd;
+    }
+    .file-upload{
+    margin-top: 10px;
+    direction: rtl;
+    }
+    .category-name-bc{
+    direction: rtl;
+    margin-top: 10px;
+    }
+    #category-name-bc-select{
+    cursor:pointer;
+    direction: rtl;
+    background-color: white;
+    width: 70%;
+    height: 28px;
+    }
+    label{
+        
+    font-family: sans-serif;
+    font-weight: 600;
+    color:black;
+    font-size: 16px;
+    float:right;
+    margin-right: 15%;
+    }
+    .category-name{
+    margin-top: 10px;
+    direction: rtl;
+    }
+    textarea{
+    direction: rtl;
+    background-color: white;
+    width: 70%;
+    height: 23px;
+    }
+    .title{
+    direction: rtl;
+    margin-top: 10px;
+    }
+    .sub-title{
+    direction: rtl;
+    margin-top: 10px;
+    }
+    .author{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    }
+    input[type="text"]{
+    direction: rtl;
+    background-color: white;
+    width: 70%;
+    height: 23px;
+    }
+    .custom-file-upload {
+    padding-right: 10%;
+    margin-top: 1px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #00BFFF;
+    color:white;
+    font-size: 10px;
+    font-family: sans-serif;
+    }
+    .delete-button{
+    cursor: pointer;
+    margin-top: 8px;
+    background-color: red;
+    color:black;
+    font-family:sans-serif;
+    font-size: 10px;
+    border: 0px ;
+    display: inline-block;
+    padding: 6px;
+    height:22px;
+    width:70%;
+    }
+    
+    .pic{
+    direction: rtl;
+    }
+    @media screen and (max-width: 600px) {
+    .left{
+    margin-top:80px;
+    width: 70%;
+    height: 20%;
+    margin-left: 14%;
+    }
+    #file-upload {
+    width:60%;
+    margin-left: 5px;
+    font-size:8px;
+    }
+    .delete-button{
+    font-size:8px;
+    height: 14px;
+    padding-bottom: 12px;
+    width:70%;
+    padding-top: 2px;
+    }
+    }
